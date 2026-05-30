@@ -1,7 +1,7 @@
 {
   "name": "pesmatches-worldcup",
-  "version": "1.0.0",
-  "description": "eFootball World Cup Tournament Website",
+  "version": "2.0.0",
+  "description": "PES WORLDCUP 2026 - Professional eFootball Tournament Platform",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +12,12 @@
   "dependencies": {
     "next": "^14.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "firebase": "^10.0.0",
+    "@firebase/app": "^0.10.0",
+    "@firebase/auth": "^0.24.0",
+    "@firebase/firestore": "^0.24.0",
+    "@firebase/storage": "^0.11.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.0",
